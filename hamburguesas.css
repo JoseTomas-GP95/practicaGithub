@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;   
+    font-family: 'Anton'
+}
+
+ul {
+    list-style: none;
+}
+
+.nab{
+    padding:2em;
+    background-color: #ce3434;
+    display: flex;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    width: 98vw;
+
+}
+
+.listas-navbar{
+    /* background-color: green; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.boton{ 
+    background-color: #f3cb38;
+    border-radius: 0.2em;
+    padding: 0.5rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    border:#f3cb38 1px solid ;
+    cursor: pointer;
+}
+    
+.boton:hover{
+    background-color: orange;
+    color: white;
+}
+
+.segundoContenedor{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}   
+
+
+.findBurguers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color:#ce3434;
+    font-weight: 900;
+    letter-spacing: -5px;
+    padding: 1rem;
+}
+
+.textoexPlicativo{
+    font-weight: bold;
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.botton{ 
+    margin: 40px;
+    background-color: #da3028;
+    border-radius: 0.2em;
+    padding: 0.5rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    border:#f3cb38 1px solid ;
+    cursor: pointer;
+    color: white;
+}
+    
+.botton:hover{
+    background-color:#f3cb38;
+    color: black;
+}
+
+
+.tercerContenedor{
+    background-color: #ce3434;
+    width: 100%;
+    display: flex;
+ 
+}
+
+.textoEplicativodeImagen{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 65vh;
+    color: white;
+}
+.imagen2{
+    /* background-color: purple; */
+    width: 63%;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.cuartocontendor{
+    background-color: blue;
+}
+
+
+.quintoContendor{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    padding: 60px 0px ;
+}
+
+.eslogan{
+    /* background-color: green; */
+    color: #da3028;
+    width: 70%;
+    height: 80%;
+    font-size: 6rem;
+    display: flex;
+    text-align: center;
+    align-items: center;  
+    line-height: 100px;
+    letter-spacing: 1px; 
+}
+
+.redsocial{
+    /* background-color: blue; */
+    margin-bottom: 80px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Archivo Black'
+}
+
+footer{
+    background-color: #ce3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:2.8125rem;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#link{
+    color:black;
+    text-decoration:underline;
+}
